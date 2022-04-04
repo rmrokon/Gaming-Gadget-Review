@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import Image from '../../images/image.jpg'
 import useReview from '../../useReview/useReview';
 import SingleReview from '../SingleReview/SingleReview';
@@ -23,6 +24,9 @@ const Home = () => {
                     {
                         reviews.slice(0, 3).map(review => <SingleReview key={review._id} {...review}></SingleReview>)
                     }
+                </div>
+                <div className='text-center mb-10'>
+                    <Link className='bg-orange-100 text-red-600 font-bold text-lg p-5 rounded-lg' to={'reviews'}>See All Customer Reviews</Link>
                 </div>
             </div>
         </div>
