@@ -1,4 +1,5 @@
 import React from 'react';
+import { StarIcon } from '@heroicons/react/solid'
 
 const SingleReview = ({ picture, name, rating, review }) => {
     return (
@@ -7,8 +8,8 @@ const SingleReview = ({ picture, name, rating, review }) => {
                 <img className='rounded-lg' src={picture} alt="" />
                 <p className='ml-5 text-xl font-bold'>{name}</p>
             </div>
-            <p>Rating: {rating}</p>
-            <p>description: {review}</p>
+            <p className='flex  mt-3 align-middle items-center font-bold text-lg'><span className='font-bold mr-3'>Rating:</span> {rating}<StarIcon className='w-5 h-5 text-yellow-500'></StarIcon></p>
+            <p className='my-3 text-lg'>{review}</p>
         </div>
     );
 };

@@ -9,7 +9,7 @@ const Dashboard = () => {
             .then(data => setGraphData(data));
     }, [])
     return (
-        <div className='grid grid-cols-2 gap-11 place-items-center h-screen my-5'>
+        <div className='grid grid-cols-2 gap-11 place-items-center py-10'>
             <div>
                 <p className='text-center text-blue-600 font-bold'>Month Wise Sell</p>
                 <LineChart width={600} height={400} data={graphData}>
@@ -21,7 +21,6 @@ const Dashboard = () => {
                     <Legend></Legend>
                 </LineChart>
             </div>
-
             <div>
                 <p className='text-center text-blue-600 font-bold'>Revenue Vs Investment</p>
                 <AreaChart width={600} height={400} data={graphData}>
@@ -34,7 +33,6 @@ const Dashboard = () => {
                     <Legend></Legend>
                 </AreaChart>
             </div>
-
             <div>
                 <p className='text-center text-blue-600 font-bold'>Revenue Vs Investment</p>
                 <BarChart width={600} height={400} data={graphData}>
@@ -46,7 +44,6 @@ const Dashboard = () => {
                     <Tooltip></Tooltip>
                 </BarChart>
             </div>
-
             <div>
                 <p className='text-center text-blue-600 font-bold'>Revenue Vs Investment</p>
                 <PieChart width={600} height={400}>
