@@ -12,7 +12,7 @@ const Home = () => {
                 <div className='md:basis-1/2 mt-20'>
                     <h3 className='text-3xl font-bold mb-5'>Xbox Core Wireless Controller – Carbon Black</h3>
                     <p className='text-lg'>Experience the latest design of Xbox. Completely wireless controller. Stay on target with the hybrid D-pad. Connect using the USB-C port for direct plug and play to console or PC. Support for AA batteries is included on the rear.</p>
-                    <button className='mt-5 bg-orange-100 p-5 rounded-md text-red-600  text-lg font-bold'>Watch Gameplay</button>
+                    <button className='mt-5 bg-orange-100 p-5 rounded-md text-red-600  text-lg font-bold'>Watch Review</button>
                 </div>
                 <div className=''>
                     <img className='' src={Image} alt="" />
