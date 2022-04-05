@@ -4,5 +4,9 @@
 
 ### Live Site Link(https://gaming-gadget-review.netlify.app/)
 
-*This is a bullet point.
+* This is a product analysis website project. 
+* Recharts graphs are also explored here with fake data. You can find the graphs in Dashboard nav.
+* Based on react funtional component.
+* It also contains a blog nav with a QnA section.
+* Styled the project using TailwindCSS.
 
