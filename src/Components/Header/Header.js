@@ -13,8 +13,8 @@ const Header = () => {
                 </div>
                 <ul className={`md:flex justify-center items-center text-center md:static absolute duration-500 md:text-lg md:h-16 font-bold bg-orange-100 ease-in w-full ${isOpen ? 'top-6' : 'top-[-120px]'}`}>
                     <CustomLink to='/'>Home</CustomLink>
-                    <CustomLink to='dashboard'>Dashboard</CustomLink>
                     <CustomLink to='reviews'>Reviews</CustomLink>
+                    <CustomLink to='dashboard'>Dashboard</CustomLink>
                     <CustomLink to='blog'>Blog</CustomLink>
                     <CustomLink to='about'>About</CustomLink>
                 </ul>
