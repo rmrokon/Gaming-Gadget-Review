@@ -1,4 +1,4 @@
-import { MenuAlt4Icon, MenuIcon, XIcon } from '@heroicons/react/solid';
+import { MenuIcon, XIcon } from '@heroicons/react/solid';
 import React, { useState } from 'react';
 import CustomLink from '../CustomLink/CustomLink';
 import './Header.css'

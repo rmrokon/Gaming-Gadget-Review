@@ -10,7 +10,7 @@ const Dashboard = () => {
             .then(data => setGraphData(data));
     }, [])
     return (
-        <div className='grid md:grid-cols-2 gap-11 place-items-center py-10 px-5'>
+        <div className='grid md:grid-cols-2 gap-11 place-items-center py-10 mt-12 px-5'>
             <div className='responsive-container-div'>
                 <div className='chart-container'>
                     <p className='text-center text-blue-600 font-bold'>Month Wise Sell</p>
