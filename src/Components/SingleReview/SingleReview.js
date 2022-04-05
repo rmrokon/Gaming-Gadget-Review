@@ -3,7 +3,7 @@ import { StarIcon } from '@heroicons/react/solid'
 
 const SingleReview = ({ picture, name, rating, review }) => {
     return (
-        <div className='border-2 rounded-lg p-5 sm:w-1/4  md:w-full'>
+        <div className='border-2 rounded-lg p-5 sm:w-1/4  md:w-full overflow-x-hidden'>
             <div className='flex items-center'>
                 <img className='rounded-lg' src={picture} alt="" />
                 <p className='ml-5 text-xl font-bold'>{name}</p>
