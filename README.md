@@ -1,3 +1,9 @@
+# Gaming Gadget Review
+
+## Private Repo Link[https://github.com/programming-hero-web-course-4/product-analysis-website-rmrokon]
+
+### Live Site Link[https://gaming-gadget-review.netlify.app/]
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
